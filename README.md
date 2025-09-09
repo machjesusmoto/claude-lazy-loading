@@ -32,7 +32,7 @@ This lazy loading system loads tools only when needed:
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/claude-lazy-loading.git
+git clone https://github.com/machjesusmoto/claude-lazy-loading.git
 cd claude-lazy-loading
 
 # Copy to Claude configuration
