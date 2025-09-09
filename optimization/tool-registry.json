@@ -1,0 +1,149 @@
+{
+  "version": "2.1.0",
+  "generated": "2025-09-09T00:11:07.570097",
+  "description": "Auto-generated lightweight tool registry for lazy loading",
+  "stats": {
+    "before_optimization": {
+      "mcp_tools": "39.8k tokens",
+      "custom_agents": "9.7k tokens",
+      "system_tools": "22.6k tokens",
+      "memory_files": "36.0k tokens",
+      "total": "~108k tokens (54%)"
+    },
+    "after_optimization": {
+      "registry_size": "~5k tokens",
+      "lazy_load_enabled": true,
+      "expected_reduction": "95%"
+    }
+  },
+  "mcp_servers": {
+    "proxmox": {
+      "auto_load": false,
+      "detected": true,
+      "trigger_keywords": [
+        "vm",
+        "container",
+        "proxmox",
+        "virtualization",
+        "lxc"
+      ]
+    },
+    "Checking": {
+      "auto_load": false,
+      "detected": true,
+      "trigger_keywords": []
+    },
+    "sequential-thinking:": {
+      "auto_load": false,
+      "detected": true,
+      "trigger_keywords": [
+        "complex",
+        "analyze",
+        "think",
+        "debug",
+        "architect",
+        "systematic",
+        "reasoning"
+      ]
+    },
+    "context7:": {
+      "auto_load": false,
+      "detected": true,
+      "trigger_keywords": [
+        "import",
+        "require",
+        "react",
+        "vue",
+        "angular",
+        "next",
+        "framework",
+        "library",
+        "docs"
+      ]
+    },
+    "magic:": {
+      "auto_load": false,
+      "detected": true,
+      "trigger_keywords": [
+        "ui",
+        "component",
+        "button",
+        "form",
+        "modal",
+        "frontend",
+        "design",
+        "/ui",
+        "/21"
+      ]
+    },
+    "playwright:": {
+      "auto_load": false,
+      "detected": true,
+      "trigger_keywords": [
+        "browser",
+        "test",
+        "e2e",
+        "screenshot",
+        "automation",
+        "visual",
+        "testing"
+      ]
+    },
+    "wordpress-tayloredfocus:": {
+      "auto_load": false,
+      "detected": true,
+      "trigger_keywords": [
+        "tayloredfocus",
+        "coaching",
+        "post",
+        "page",
+        "content"
+      ]
+    },
+    "ssh-wordpress:": {
+      "auto_load": false,
+      "detected": true,
+      "trigger_keywords": [
+        "wordpress",
+        "staging",
+        "wp-cli",
+        "theme",
+        "css",
+        "hostinger"
+      ]
+    },
+    "serena:": {
+      "auto_load": false,
+      "detected": true,
+      "trigger_keywords": [
+        "symbol",
+        "rename",
+        "refactor",
+        "find_symbol",
+        "memory",
+        "onboarding",
+        "semantic"
+      ]
+    },
+    "morphllm-fast-apply:": {
+      "auto_load": false,
+      "detected": true,
+      "trigger_keywords": [
+        "bulk",
+        "edit",
+        "pattern",
+        "replace",
+        "multi-file",
+        "fast-apply"
+      ]
+    }
+  },
+  "custom_agents": {},
+  "optimization_rules": {
+    "max_initial_tokens": 5000,
+    "auto_load_threshold": 0.8,
+    "cache_duration_minutes": 30,
+    "compression_enabled": true,
+    "intelligent_preload": true
+  }
+}
